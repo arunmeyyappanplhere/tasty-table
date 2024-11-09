@@ -1,0 +1,311 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+#logo-img {
+    margin-left: 50px;
+    width: 50px;
+}
+
+#title {
+    color: tomato;
+    margin-left: 700px;
+    margin-right: 250px;
+}
+
+ul {
+    font-size: 22px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul .nav-item {
+    margin: auto 10px;
+}
+
+ul .nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: darkblue;
+}
+
+.nav-cover {
+    height: 76px;
+    width: 1920px;
+}
+
+.hero {
+    position: relative;
+    bottom: 700px;
+    margin-bottom: -600px;
+    color: white;
+}
+
+#hero-chicken-tenders {
+    height: 800px;
+}
+
+#welcome-content-left {
+    padding: 260px 0 0 15px;
+    text-align: center;
+}
+
+#welcome-content-right {
+    padding: 260px 0 0 0;
+    text-align: center;
+}
+
+#welcome-content-left h1,
+#welcome-content-right h1 {
+    font-size: 54px;
+}
+
+#welcome-content-left p,
+#welcome-content-right p {
+    font-size: 22px;
+}
+
+.highlight-yellow {
+    color: rgb(255, 251, 0);
+}
+
+.highlight-orange {
+    color: tomato
+}
+
+.hero-nav-btn {
+    margin-left: 720px;
+}
+
+.hero-nav-btn #hero-btn1,
+#ad-btn {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-weight: 600;
+    width: 220px;
+
+}
+
+.hero-nav-btn #hero-btn1:hover,
+#ad-btn:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.hero-nav-btn #hero-btn2 {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-weight: 600;
+    width: 220px;
+
+}
+
+.hero-nav-btn #hero-btn2:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.trendy-recipes,
+.signature-dishes,
+.appetizers,
+.main-courses,
+.deserts,
+.beverages,
+.sides {
+    margin: 50px 150px 0px 150px;
+}
+
+.trendy-recipes .vm-btn {
+    background-color: tomato;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-left: 1200px;
+}
+
+.signature-dishes .vm-btn {
+    background-color: tomato;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-left: 930px;
+}
+
+.vm-btn:hover,
+#btn-show-more:hover {
+    background-color: rgb(237, 85, 58);
+}
+
+.card-header {
+    background-color: #F1F9EA;
+    padding-left: 100px;
+}
+
+.card-header img {
+    width: 320px;
+    height: 320px;
+}
+
+.card-footer {
+    padding-left: 180px;
+}
+
+.card {
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.page-header {
+    font-weight: 400;
+}
+
+.ad-popup {
+    margin: 40px 20px 0;
+    background-image: url(images/Get-offer.jpg);
+    width: 1860px;
+    height: 250px;
+    text-align: center;
+}
+
+.ad-popup .ele-group {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.ad-popup .ad-heading {
+    color: white;
+}
+
+.ad-img {
+    width: 200px;
+}
+
+.left-ad {
+    margin: 25px 0 auto 140px;
+}
+
+.right-ad {
+    margin: 25px 0 auto 80px;
+}
+
+.ad-img {
+    margin-right: 90px;
+}
+
+.ad-img:hover {
+    scale: 1.015;
+    transition: 200ms;
+}
+
+.menus-shortcut {
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.menus-shortcut .food-category h3 {
+    margin-top: 15px;
+
+}
+
+.menus-shortcut .food-category img {
+    width: 180px;
+    margin: 0 75px;
+    border-radius: 50%;
+    border: 3px solid tomato;
+}
+
+.menus-shortcut .food-category a img:hover {
+    scale: 1.015;
+    box-shadow: 1px 1px 3px 3px rgb(207, 207, 207);
+    transition: 200ms;
+}
+
+#btn-show-more {
+    background-color: tomato;
+    color: white;
+}
+
+
+.footer-soc{
+    margin: 8px;
+    scale: 1.2;
+}
+
+.footer-soc:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 650px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* @keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to{
+        opacity: 1;
+        transform : translateX(0px)
+    }
+}
+
+.card{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+} */

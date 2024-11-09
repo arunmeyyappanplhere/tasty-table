@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Main Courses</title>
+    
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .card {
+            margin-bottom: 120px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(".scroll-2").hide();
+            $("#btn-show-more").click(function () {
+                $("#btn-show-more").hide();
+                $(".scroll-2").show();
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="home.html"><img src="images/Logo-coloured.png" alt="TastyTable Logo"
+                id="logo-img"></a>
+        <h2 id="title">TastyTable</h2>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Menus
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="appetizers.html">Appetizers/Starters</a>
+                    <a class="dropdown-item" href="main-courses.html">Main Courses/Entrées</a>
+                    <a class="dropdown-item" href="side-dishes.html">Sides</a>
+                    <a class="dropdown-item" href="deserts.html">Desserts</a>
+                    <a class="dropdown-item" href="beverages.html">Beverages</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Reserve Table</a>
+                    <a class="dropdown-item" href="#">Order Online</a>
+                    <a class="dropdown-item" href="#">Event Planner</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Deals
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="deals-and-discounts.html">Events</a>
+                    <a class="dropdown-item" href="deals-and-discounts.html">Discounts and Offers</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-cover"></div>
+    <div class="container">
+        <center>
+            <h1 class="display-1 page-header mt-5" style="margin-left: 80px;">Savor the Heart of Our Culinary Craft
+            </h1>
+        </center>
+    </div>
+    <div class="main-courses scroll-1">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Lentil-Shepherd's-Pie.png" alt="Lentil Shepherd's PieCurry">
+                    </div>
+                    <div class="card-body">
+                        <h4>Lentil Shepherd's PieCurry</h4>
+                        <p><b>Ingredients: </b>Lentils, potatoes (for mashed topping), carrots, celery, onions, garlic,
+                            vegetable broth, tomato paste, peas, olive oil, soy sauce or Worcestershire sauce, dried
+                            thyme, dried rosemary, salt, black pepper, butter or milk (for mashed potatoes).</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;510</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Duck-Confit.png" alt="Duck Confit">
+                    </div>
+                    <div class="card-body">
+                        <h4>Duck Confit</h4>
+                        <p><b>Ingredients: </b>Duck legs, duck fat, garlic, fresh thyme, fresh rosemary, bay leaves,
+                            salt, black peppercorns, juniper berries (optional).</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;1099</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Cauliflower-Steak.png" alt="Cauliflower Steak">
+                    </div>
+                    <div class="card-body">
+                        <h4>Cauliflower Steak</h4>
+                        <p><b>Ingredients: </b>
+                            Cauliflower, olive oil, garlic powder, paprika, salt, black pepper, fresh parsley
+                            (optional), lemon wedges (optional).</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;380</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Beef-Bourguignon.png" alt="Beef Bourguignon">
+                    </div>
+                    <div class="card-body">
+                        <h4>Beef Bourguignon</h4>
+                        <p><b>Ingredients: </b>Beef chuck, bacon, carrots, onions, garlic, mushrooms, red wine
+                            (Burgundy), beef broth, tomato paste, flour, olive oil, fresh thyme, bay leaves, salt, black
+                            pepper, fresh parsley (for garnish).</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;770</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Chana-Masala.png" alt="Chana Masala">
+                    </div>
+                    <div class="card-body">
+                        <h4>Chana Masala</h4>
+                        <p><b>Ingredients: </b>Chickpeas, onion, tomato, garlic, ginger, green chilies, cumin seeds,
+                            coriander powder, cumin powder, turmeric powder, red chili powder, garam masala.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;350</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Chicken-Marsala.png" alt="Chicken Marsala">
+                    </div>
+                    <div class="card-body">
+                        <h4>Chicken Marsala</h4>
+                        <p><b>Ingredients: </b>
+                            Chicken breasts, Marsala wine, chicken broth, mushrooms, flour, butter, olive oil, garlic,
+                            shallots (optional), salt, black pepper, parsley.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;620</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Vegetable-Moussaka.png" alt="Vegetable Moussaka">
+                    </div>
+                    <div class="card-body">
+                        <h>
+                            </h4>
+                            <p><b>Ingredients: </b>Eggplants, potatoes, zucchini, tomatoes, onion, garlic, olive oil,
+                                ground cinnamon, ground nutmeg, red wine or vegetable broth, tomato paste, breadcrumbs,
+                                feta cheese, eggs, salt, black pepper, fresh parsley.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;540</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Seared-Scallops.png" alt="Seared Scallops">
+                    </div>
+                    <div class="card-body">
+                        <h>
+                            </h4>
+                            <p><b>Ingredients: </b>
+                                Scallops, olive oil, butter, garlic, lemon, salt, black pepper, fresh parsley.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;710</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Paneer-Butter-Masala.png" alt="Paneer Butter Masala">
+                    </div>
+                    <div class="card-body">
+                        <h4>Paneer Butter Masala</h4>
+                        <p><b>Ingredients: </b>
+                            Paneer, butter, onions, tomatoes, garlic, ginger, green chilies, cream, garam masala,
+                            coriander powder, cumin powder, turmeric powder, red chili powder, salt, black pepper, fresh
+                            cilantro.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;480</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Pork-Chops-with-Apple-Chutney.png" alt="Pork Chops with Apple Chutney">
+                    </div>
+                    <div class="card-body">
+                        <h4>Pork Chops with Apple Chutney</h4>
+                        <p><b>Ingredients: </b>Pork chops, apples, onion, brown sugar, apple cider vinegar, cinnamon,
+                            cloves, garlic, olive oil, salt, black pepper, fresh thyme.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;699</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Stuffed-Acorn-Squash.png" alt="Stuffed Acorn Squash">
+                    </div>
+                    <div class="card-body">
+                        <h4>Stuffed Acorn Squash</h4>
+                        <p><b>Ingredients: </b>
+                            Acorn squash, quinoa or rice, onions, garlic, bell peppers, mushrooms, cranberries, nuts
+                            (e.g., pecans or walnuts), olive oil, salt, black pepper, dried thyme or sage.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;550</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Lamb-Tagine.png" alt="Lamb Tagine">
+                    </div>
+                    <div class="card-body">
+                        <h4>Lamb Tagine</h4>
+                        <p><b>Ingredients: </b>
+                            Lamb, onions, garlic, ginger, dried apricots, almonds, chickpeas, tomatoes, chicken or beef
+                            broth, olive oil, ground cumin, ground coriander, ground cinnamon, ground turmeric, paprika,
+                            salt, black pepper, fresh cilantro.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;999</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center><button id="btn-show-more" class="btn btn-lg">Show More</button></center>
+    <br><br>
+    <div class="main-courses scroll-2">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Ratatouille.png" alt="Ratatouille">
+                    </div>
+                    <div class="card-body">
+                        <h4>Ratatouille</h4>
+                        <p><b>Ingredients: </b>Eggplant, zucchini, bell peppers, tomatoes, onions, garlic, olive oil,
+                            fresh basil, fresh thyme, salt, black pepper.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;535</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Fish-Tacos.png" alt="Fish Tacos">
+                    </div>
+                    <div class="card-body">
+                        <h4>Fish Tacos</h4>
+                        <p><b>Ingredients: </b>Fish fillets, tortillas, cabbage, lime, avocado, cilantro, sour cream,
+                            mayonnaise, garlic powder, chili powder, cumin, salt, black pepper.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;585</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Vegetable-Biryani.png" alt="Vegetable Biryani">
+                    </div>
+                    <div class="card-body">
+                        <h4>Vegetable Biryani</h4>
+                        <p><b>Ingredients: </b>
+                            Rice, mixed vegetables (e.g., carrots, peas, potatoes, beans), onions, garlic, ginger,
+                            tomatoes, yogurt, fresh cilantro, fresh mint, biryani spice mix or garam masala, turmeric
+                            powder, cumin seeds, cloves, cardamom, bay leaves, salt, black pepper, oil or ghee.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;415</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Beef-Fajitas.png" alt="Beef Fajitas">
+                    </div>
+                    <div class="card-body">
+                        <h4>Beef Fajitas</h4>
+                        <p><b>Ingredients: </b>Beef strips, bell peppers, onions, tortillas, lime, garlic, cumin, chili
+                            powder, paprika, olive oil, salt, black pepper, fresh cilantro.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;649</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Black-Bean-Burgers.png" alt="Black Bean Burgers">
+                    </div>
+                    <div class="card-body">
+                        <h4>Black Bean Burgers</h4>
+                        <p><b>Ingredients: </b>Black beans, onion, garlic, bell pepper, breadcrumbs, egg, cumin, chili
+                            powder, paprika, salt, black pepper, olive oil.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;455</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Chicken-Cordon-Bleu.png" alt="Chicken Cordon Bleu">
+                    </div>
+                    <div class="card-body">
+                        <h4>Chicken Cordon Bleu</h4>
+                        <p><b>Ingredients: </b>
+                            Chicken breasts, ham slices, Swiss cheese, flour, eggs, breadcrumbs, Dijon mustard, salt,
+                            black pepper, olive oil or butter.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;670</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Three-Cheese-Manicotti.png" alt="Three Cheese Manicotti">
+                    </div>
+                    <div class="card-body">
+                        <h4>Three Cheese Manicotti</h4>
+                        <p><b>Ingredients: </b>Manicotti pasta, ricotta cheese, mozzarella cheese, Parmesan cheese,
+                            marinara sauce, egg, garlic, fresh basil, salt, black pepper.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;645</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Mussels-in-White-Wine-Sauce.png" alt="Mussels in White Wine Sauce">
+                    </div>
+                    <div class="card-body">
+                        <h4>Mussels in White Wine Sauce</h4>
+                        <p><b>Ingredients: </b>
+                            Mussels, white wine, garlic, shallots, butter, olive oil, parsley, lemon, salt, black
+                            pepper.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;779</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Gnocchi-with-Pesto.png" alt="Gnocchi with Pesto">
+                    </div>
+                    <div class="card-body">
+                        <h4>Gnocchi with Pesto</h4>
+                        <p><b>Ingredients: </b>
+                            Gnocchi, pesto sauce, Parmesan cheese, olive oil, salt, black pepper.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;590</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Veal-Piccata.png" alt="Veal Piccata">
+                    </div>
+                    <div class="card-body">
+                        <h4>Veal Piccata</h4>
+                        <p><b>Ingredients: </b>Veal cutlets, lemon, capers, white wine, butter, olive oil, garlic,
+                            flour, salt, black pepper, fresh parsley.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;809</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Quinoa-Stuffed-Peppers.png" alt="Quinoa Stuffed Peppers">
+                    </div>
+                    <div class="card-body">
+                        <h4>Quinoa Stuffed Peppers</h4>
+                        <p><b>Ingredients: </b>
+                            Bell peppers, quinoa, black beans, corn, tomatoes, onion, garlic, cheese (e.g., feta or
+                            cheddar), olive oil, cumin, chili powder, salt, black pepper, fresh cilantro.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;500</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Grilled-Tuna-Steaks.png" alt="Grilled Tuna Steaks">
+                    </div>
+                    <div class="card-body">
+                        <h4>Grilled Tuna Steaks</h4>
+                        <p><b>Ingredients: </b>
+                            Tuna steaks, olive oil, lemon juice, garlic, soy sauce, salt, black pepper, fresh parsley.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-lg btn-success">Get @ &#8377;659</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer" style="background-color: #232023; color: white;">
+        <div class="container">
+          <div class="row" style="padding-top: 40px;">
+            <div class="col-sm-3 ">
+              <h3>Contact</h3>
+              <pre style="font-family: inherit;color: inherit;"><span id="footer-heads">ADDRESS:</span>
+Tasty Table
+123 PEC Colony
+Poonamallee, Chennai 600123 <br>
+<span id="footer-heads">PHONE:</span>
++1 (123) 456-7890 <br>
+<span id="footer-heads">EMAIL:</span>
+info@tastytable.com <br></pre>
+    
+            </div>
+            <div class="col-sm-3">
+    
+              <h3>Services</h3>
+              <a class="text-light about-links" href="appetizers.html">Appetizers/ Starters</a><br>
+              <a class="text-light about-links" href="main-courses.html">Main Courses/ Entrées</a>
+              <a class="text-light about-links" href="side-dishes.html">Sides</a><br>
+              <a class="text-light about-links" href="deserts.html">Desserts</a><br>
+              <a class="text-light about-links" href="beverages.html">Beverages</a><br>
+              <a class="text-light about-links" href="deals-and-discounts.html">Deals and Discounts</a><br>
+    
+            </div>
+            <div class="col-sm-3">
+              <h3>About Us</h3>
+              <a href="about.html" class="text-light about-links">About Us </a> <br>
+              <a href="about.html" class="text-light about-links">Privacy Policy </a> <br>
+              <a href="about.html" class="text-light about-links">Terms and Conditions</a> <br>
+              <a href="contact.html" class="text-light about-links">FAQs </a> <br>
+              <a href="contact.html" class="text-light about-links">Support </a> <br>
+            </div>
+            <div class="col-sm-3">
+    
+              <h3>Follow Us</h3>
+              <div class="d-flex" id="socials">
+                <a class="footer-soc" style="color: white;"><span class="fa fa-facebook-f"></span></a>
+                <a class="footer-soc" style="color: white;"> <span class="fa fa-twitter"></span> </a>
+                <a class="footer-soc" style="color: white;"> <span class="fa fa-instagram"></span></a>
+                <a class="footer-soc"> <span style="color: white;">&#127760;</span></a>
+                <br>
+              </div>
+              <img src="images/Logo-coloured.png" alt="Logo" width="80px" class="m-3">
+            </div>
+          </div>
+        </div>
+        <h6 style="text-align: center;">&copy; Developed and owned by Arun Meyyappan P L</h6>
+      </div>
+</body>
+
+</html>

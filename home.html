@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>TastyTable</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="home.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="home.html"><img src="images/Logo-coloured.png" alt="TastyTable Logo"
+        id="logo-img"></a>
+    <h2 id="title">TastyTable</h2>
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Menus
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="appetizers.html">Appetizers/Starters</a>
+          <a class="dropdown-item" href="main-courses.html">Main Courses/Entrées</a>
+          <a class="dropdown-item" href="side-dishes.html">Sides</a>
+          <a class="dropdown-item" href="deserts.html">Desserts</a>
+          <a class="dropdown-item" href="beverages.html">Beverages</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Services
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Reserve Table</a>
+          <a class="dropdown-item" href="#">Order Online</a>
+          <a class="dropdown-item" href="#">Event Planner</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Deals
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="deals-and-discounts.html">Events</a>
+          <a class="dropdown-item" href="deals-and-discounts.html">Discounts and Offers</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="nav-cover"></div>
+  <div id="demo" class="carousel slide" data-ride="carousel" id="main-hero-slide">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/appetizer-header-1.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="images/appetizer-header-2.png" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="images/appetizer-header-3.png" alt="New York">
+      </div>
+      <div class="carousel-item">
+        <img src="images/appetizer-header-4.png" alt="New York">
+      </div>
+      <div class="carousel-item">
+        <img src="images/appetizer-header-5.png" alt="New York">
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="row">
+      <div class="col-sm-5" id="welcome-content-left">
+        <h1>Where Every Meal is a <br>
+          <span class="highlight-yellow">Celebration of Flavor</span>
+        </h1>
+
+        <p>"Welcome to TastyTable, your culinary haven where exquisite <br>
+          flavors and a warm ambiance create unforgettable dining experiences. <br>
+          Join us for a meal that delights all the senses."</p>
+      </div>
+      <div class="col-sm-2" id="welcome-content-center">
+      </div>
+      <div class="col-sm-5" id="welcome-content-right">
+        <h1>
+          <span class="highlight-yellow">Delicious Dish</span> <br>
+          for Food Lovers
+        </h1>
+
+        <p>"At TastyTable, we believe that dining is more than just <br>
+          eating—it's about savoring moments, creating memories, and <br>
+          indulging in the finest ingredients carefully<br>
+          crafted into exquisite dishes. "</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="hero-nav-btn">
+      <a class="btn btn-lg" id="hero-btn1" href="appetizers.html">View Menu</a> &nbsp;
+      <a class="btn btn-lg" id="hero-btn2" href="deserts.html">Make a Reservation</a>
+    </div>
+  </div>
+  <div class="trendy-recipes">
+    <div class="row d-flex">
+      <h1>Trendy <span class="highlight-orange">Recipes</span></h1>
+      <a href="main-courses.html" class="btn btn-lg text-white vm-btn">View more</a>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Avacado-Toast.png" alt="Avacado Toast">
+          </div>
+          <div class="card-body">
+            <h4>Avacado Toast</h4>
+            <p><b>Ingredients: </b>Bread, avocado, salt, black pepper, lemon or lime juice, poached egg, red pepper
+              flakes, cherry tomatoes, microgreens, feta cheese, olive oil, everything bagel seasoning, radishes, smoked
+              salmon</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;189</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Impossible-Tacos.png" alt="Impossible Tacos">
+          </div>
+          <div class="card-body">
+            <h4>Impossible Tacos</h4>
+            <p><b>Ingredients: </b>Taco shells, Impossible meat, taco seasoning, olive oil, onion, garlic, bell peppers,
+              tomato, lettuce, cheddar cheese, salsa, sour cream, avocado, cilantro, lime wedges</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;329</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Gardein-Meatless-Meatballs-Spaghetti.png" alt="Gardein Meatless Meatballs">
+          </div>
+          <div class="card-body">
+            <h4>Gardein Meatless Meatballs Spaghetti</h4>
+            <p><b>Ingredients: </b>
+              Gardein Meatless Meatballs, spaghetti, marinara sauce, olive oil, garlic, onion, dried oregano, dried
+              basil, salt, black pepper, Parmesan cheese, fresh basil leaves, red pepper flakes</p>
+          </div>
+          <div class="card-footer">
+            <a href="appetizers.html" class="btn btn-lg btn-success">Get @ &#8377;535</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="signature-dishes">
+    <div class="row d-flex">
+      <h1>Discover Our <span class="highlight-orange">Signature Dishes</span></h1>
+      <a href="" class="btn btn-lg text-white vm-btn">View more</a>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Braised-Ribs.png" alt="Baised Ribs">
+          </div>
+          <div class="card-body">
+            <h4>Braised Ribs</h4>
+            <p><b>Ingredients: </b>
+              Beef short ribs, red wine, beef broth, onions, carrots, celery, garlic,
+              tomato paste, olive oil, flour, rosemary, thyme, bay leaves, salt, black pepper.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;665</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Blackened-Salmon.png" alt="Blackened Salmon">
+          </div>
+          <div class="card-body">
+            <h4>Blackened Salmon</h4>
+            <p><b>Ingredients: </b>Jackfruit, burger buns, barbecue sauce, olive oil, onion, garlic, smoked paprika,
+              chili powder, cumin, salt, black pepper, coleslaw, pickles, avocado slices.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;670</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Lava-Cake.png" alt="Lava Cake">
+          </div>
+          <div class="card-body">
+            <h4>Lava Cake</h4>
+            <p><b>Ingredients: </b>
+              Dark chocolate, butter, sugar, eggs, flour, vanilla extract, salt, powdered sugar (for
+              dusting), vanilla ice cream (optional), cocoa powder (for dusting the ramekins).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;289</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ad-popup d-flex">
+    <div class="left-ad">
+      <img src="images/Guacamole.png" alt="Guacamole" class="ad-img rounded">
+      <img src="images/Jackfruit-Pulled-Pork-Burger.png" alt="Jackfruit Pulled Pork Burger" class="ad-img rounded">
+    </div>
+    <div class="ele-group">
+      <h1 class="ad-heading">GET OFFER UPTO</h1>
+      <h1 class="ad-heading" style="font-size: 54px; font-weight: 800;">50%</h1>
+      <a href="deals-and-discounts.html" class="btn btn-lg" id="ad-btn">Grab Now !</a>
+    </div>
+    <div class="right-ad">
+      <img src="images/Beef-Wellington.png" alt="Beef Wellington" class="ad-img rounded">
+      <img src="images/Lobster-Mac.png" alt="Lobster Mac" class="ad-img rounded">
+    </div>
+  </div>
+
+  <div class="d-flex menus-shortcut">
+    <div class="food-category">
+      <a><img src="images/Appetizers.jpg" alt="Appetizers" id="Appetizers-modal-open"></a>
+      <center>
+        <h3>Appetizers</h3>
+      </center>
+    </div>
+    <div class="food-category">
+      <a><img src="images/Main-Courses.jpg" alt="Main Courses" id="MainCourses-modal-open"></a>
+      <center>
+        <h3>Main Courses</h3>
+      </center>
+    </div>
+    <div class="food-category">
+      <a><img src="images/Sides.jpg" alt="Sides" id="Sides-modal-open"></a>
+      <center>
+        <h3>Sides</h3>
+      </center>
+    </div>
+    <div class="food-category">
+      <a><img src="images/Deserts.jpg" alt="Deserts" id="Deserts-modal-open"></a>
+      <center>
+        <h3>Deserts</h3>
+      </center>
+    </div>
+    <div class="food-category">
+      <a><img src="images/Beverages.jpg" alt="Beverages" id="Beverages-modal-open"></a>
+      <center>
+        <h3>Beverages</h3>
+      </center>
+    </div>
+  </div>
+
+  <div class="appetizers scroll-1" id="appetizersModal">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Vegetable-Lasagna.png" alt="Vegetable Lasagna">
+          </div>
+          <div class="card-body">
+            <h4>Vegetable Lasagna</h4>
+            <p><b>Ingredients: </b>Lasagna noodles, ricotta cheese, mozzarella cheese, Parmesan cheese,
+              marinara sauce, zucchini, spinach, mushrooms, bell peppers, onion, garlic, olive oil, salt,
+              black pepper, fresh basil (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;490</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Grilled-Chicken-Breast.png" alt="Grilled Chicken Breast">
+          </div>
+          <div class="card-body">
+            <h4>Grilled Chicken Breast</h4>
+            <p><b>Ingredients: </b>Chicken breasts, olive oil, garlic, lemon juice, salt, black pepper,
+              paprika, dried oregano, dried thyme, fresh parsley (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;430</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Stuffed-Bell-Peppers.png" alt="Stuffed Bell Peppers">
+          </div>
+          <div class="card-body">
+            <h4>Stuffed Bell Peppers</h4>
+            <p><b>Ingredients: </b>
+              Bell peppers, rice, black beans, corn, diced tomatoes, onion, garlic, olive oil, cumin,
+              chili powder, salt, black pepper, cheddar cheese, fresh cilantro (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;380</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-courses scroll-1" id="maincoursesModal">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Lentil-Shepherd's-Pie.png" alt="Lentil Shepherd's PieCurry">
+          </div>
+          <div class="card-body">
+            <h4>Lentil Shepherd's PieCurry</h4>
+            <p><b>Ingredients: </b>Lentils, potatoes (for mashed topping), carrots, celery, onions, garlic,
+              vegetable broth, tomato paste, peas, olive oil, soy sauce or Worcestershire sauce, dried
+              thyme, dried rosemary, salt, black pepper, butter or milk (for mashed potatoes).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;510</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Duck-Confit.png" alt="Duck Confit">
+          </div>
+          <div class="card-body">
+            <h4>Duck Confit</h4>
+            <p><b>Ingredients: </b>Duck legs, duck fat, garlic, fresh thyme, fresh rosemary, bay leaves,
+              salt, black peppercorns, juniper berries (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;1099</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Cauliflower-Steak.png" alt="Cauliflower Steak">
+          </div>
+          <div class="card-body">
+            <h4>Cauliflower Steak</h4>
+            <p><b>Ingredients: </b>
+              Cauliflower, olive oil, garlic powder, paprika, salt, black pepper, fresh parsley
+              (optional), lemon wedges (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;380</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sides scroll-1" id="sidesModal">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Garlic-Roasted-Potatoes.png" alt="Garlic Roasted Potatoes">
+          </div>
+          <div class="card-body">
+            <h4>Garlic Roasted Potatoes</h4>
+            <p><b>Ingredients: </b>Potatoes, garlic, olive oil, rosemary, salt, black pepper.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;150</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Bacon-Wrapped-Asparagus.png" alt="Bacon Wrapped Asparagus">
+          </div>
+          <div class="card-body">
+            <h4>Bacon Wrapped Asparagus</h4>
+            <p><b>Ingredients: </b>Asparagus, bacon, olive oil, salt, black pepper.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;399</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Caprese-Salad.png" alt="Caprese Salad">
+          </div>
+          <div class="card-body">
+            <h4>Caprese Salad</h4>
+            <p><b>Ingredients: </b>
+              Tomatoes, mozzarella, fresh basil, olive oil, balsamic vinegar, salt, black pepper.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;245</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="deserts scroll-1" id="desertsModal">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Gulab-Jamun.png" alt="Gulab Jamun">
+          </div>
+          <div class="card-body">
+            <h4>Gulab Jamun</h4>
+            <p><b>Ingredients: </b>Khoya (milk solids), sugar, water, cardamom, saffron, ghee.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;175</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Rasgulla.png" alt="Rasgulla">
+          </div>
+          <div class="card-body">
+            <h4>Rasgulla</h4>
+            <p><b>Ingredients: </b>Chhena (paneer), sugar, water, rose water, cardamom .</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;149</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Kheer.png" alt="Kheer">
+          </div>
+          <div class="card-body">
+            <h4>Kheer</h4>
+            <p><b>Ingredients: </b>
+              Rice, milk, sugar, cardamom, saffron, almonds, raisins.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;129</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="beverages scroll-1" id="beveragesModal">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Masala-Chai.png" alt="Masala Chai">
+          </div>
+          <div class="card-body">
+            <h4>Masala Chai</h4>
+            <p><b>Ingredients: </b>Tea leaves, milk, water, sugar, ginger, cardamom, cinnamon, cloves.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;80</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Lassi.png" alt="Lassi">
+          </div>
+          <div class="card-body">
+            <h4>Lassi</h4>
+            <p><b>Ingredients: </b>Yogurt, sugar, water, cardamom, rose water (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;80</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/Cold-Coffee.png" alt="Cold Coffee">
+          </div>
+          <div class="card-body">
+            <h4>Cold Coffee</h4>
+            <p><b>Ingredients: </b>
+              Coffee, milk, sugar, ice, vanilla ice cream (optional).</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-lg btn-success">Get @ &#8377;180</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer" style="background-color: #232023; color: white;">
+    <div class="container">
+      <div class="row" style="padding-top: 40px;">
+        <div class="col-sm-3 ">
+          <h3>Contact</h3>
+          <pre style="font-family: inherit;color: inherit;"><span id="footer-heads">ADDRESS:</span>
+Tasty Table
+123 PEC Colony
+Poonamallee, Chennai 600123 <br>
+<span id="footer-heads">PHONE:</span>
++1 (123) 456-7890 <br>
+<span id="footer-heads">EMAIL:</span>
+info@tastytable.com <br></pre>
+
+        </div>
+        <div class="col-sm-3">
+
+          <h3>Services</h3>
+          <a class="text-light about-links" href="appetizers.html">Appetizers/ Starters</a><br>
+          <a class="text-light about-links" href="main-courses.html">Main Courses/ Entrées</a>
+          <a class="text-light about-links" href="side-dishes.html">Sides</a><br>
+          <a class="text-light about-links" href="deserts.html">Desserts</a><br>
+          <a class="text-light about-links" href="beverages.html">Beverages</a><br>
+          <a class="text-light about-links" href="deals-and-discounts.html">Deals and Discounts</a><br>
+
+        </div>
+        <div class="col-sm-3">
+          <h3>About Us</h3>
+          <a href="about.html" class="text-light about-links">About Us </a> <br>
+          <a href="about.html" class="text-light about-links">Privacy Policy </a> <br>
+          <a href="about.html" class="text-light about-links">Terms and Conditions</a> <br>
+          <a href="contact.html" class="text-light about-links">FAQs </a> <br>
+          <a href="contact.html" class="text-light about-links">Support </a> <br>
+        </div>
+        <div class="col-sm-3">
+
+          <h3>Follow Us</h3>
+          <div class="d-flex" id="socials">
+            <a class="footer-soc" style="color: white;"><span class="fa fa-facebook-f"></span></a>
+            <a class="footer-soc" style="color: white;"> <span class="fa fa-twitter"></span> </a>
+            <a class="footer-soc" style="color: white;"> <span class="fa fa-instagram"></span></a>
+            <a class="footer-soc"> <span style="color: white;">&#127760;</span></a>
+            <br>
+          </div>
+          <img src="images/Logo-coloured.png" alt="Logo" width="80px" class="m-3">
+        </div>
+      </div>
+    </div>
+    <h6 style="text-align: center;">&copy; Developed and owned by Arun Meyyappan P L</h6>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+
+</html>
